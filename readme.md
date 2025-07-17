@@ -329,7 +329,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    3. **配置到 GitHub**：
       - `TELEGRAM_BOT_TOKEN`：填入第 1 步获得的 Bot Token
       - `TELEGRAM_CHAT_ID`：填入第 2 步获得的 Chat ID
-   </details>
+      </details>
 
 3. **配置关键词和设置**:
 
@@ -338,7 +338,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
       - `"daily"` - 当日汇总模式（默认）
       - `"current"` - 当前榜单模式  
       - `"incremental"` - 增量监控模式
-   
+     
     <details>
     <summary><strong>⚙️ 点击查看 frequency_words.txt 配置教程</strong></summary>
 
@@ -381,13 +381,13 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
     华为
     OPPO
     +发布
-
+    
     A股
     上证
     深证
     +涨跌
     !预测
-
+    
     世界杯
     欧洲杯
     亚洲杯
@@ -437,13 +437,13 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
     人工智能
     AI
     ChatGPT
-
+    
     # 第二步：发现误匹配后，加入必须词限定
     人工智能  
     AI
     ChatGPT
     +技术
-
+    
     # 第三步：发现干扰内容后，加入过滤词
     人工智能
     AI  
@@ -476,11 +476,11 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
     华为
     OPPO
     +新品
-
+    
     苹果
     三星  
     +发布
-
+    
     手机
     销量
     +市场
@@ -586,28 +586,6 @@ platforms:
    # 显示帮助信息
    docker exec -it trend-radar python manage.py help
    ```
-
-
-## ☕ 赞助让代码更香.jpg
-
-<div align="center">
-
-| Wechat | Alipay |
-|:---:|:---:|
-| <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2F2ae0a88d98079f7e876c2b4dc85233c6-9e8025.JPG" width="300" title="微信支付"/> | <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2Fed4f20ab8e35be51f8e84c94e6e239b4-fe4947.JPG" width="300" title="支付宝支付"/> |
-
-</div>
-
-
-## 📧 学习交流
-
-<div align="center">
-
-<img src="_image/support.jpg"  title="硅基茶水间留言"/>
-<br>
-<img src="_image/weixin.png" width="600" title="硅基茶水间"/>
-
-</div>
 
 
 ```mermaid
